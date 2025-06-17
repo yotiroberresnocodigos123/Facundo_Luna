@@ -4,69 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ULTIMATE BSAS</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="estilos/styles.css">
 </head>
 <!-- Está es una página de la comunidad competitiva del juego "Super Smash Bros Ultimate", específicamente la de Buenos Aires, Argentina. 
  En esta, va a haber información como fecha y dirección de los torneos o el ranking oficial de los jugadores-->
 <body>
     <!-- Contenido del encabezado -->
-    <header>
-        <h1 class="encabezado">
-            SUPER SMASH BROS ULTIMATE BUENOS AIRES</h1>
-    </header>
+   <header>
+    <div class="nav-left">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="contacto.html">Contacto</a>
+    </div>
+    <h1 class="title">SUPER SMASH BROS ULTIMATE BUENOS AIRES</h1>
+</header>
 
     <!-- Parte de la página con la información de páginas que puedes visitar, en este caso, por ahora solo serán 2, 
      siendo estas el ranking e información de los torneos, como mencioné anteriormente -->
-<nav>
-   
-<img src="/Imagenes/ranking.png" alt="ranking" class="rank">
-
-
-<h2 class="pie1"> 
-        <a href="rank.html">Ranking oficial</a>
- </h2>
-
-
-  <img src="/Imagenes/torneo.png" alt="torneo" class="torneo">
-  
-  <h2 class="pie2"> 
-        <a href="torneos.html">Información de torneos</a>
-    </h2>
+<main>
+  <div class="secciones">
     
-</nav>
+    <div class="img-text">
+        <a href="rank.html">
+          <img src="Imagenes/ranking.png" alt="ranking" class="img-menu"></a>
+          <p>Ranking Oficial</p>
+    </div>
 
-    <!-- Pie de la página, donde se encontraran las redes sociales de la comunidad.
-      Se acceden a ellas tocando las imagenes-->
-<footer>
-<h2> NUESTRAS REDES</h2>
-<table>
+    <div class="img-text">
+        <a href="torneos.html">
+      <img src="Imagenes/torneo.png" alt="torneo" class="img-menu">
+      </a>
+      <p>Torneos</p>
+    </div>
 
-<tr>
+  </div>
+</main>
 
-<th> 
-    <a href="https://www.youtube.com/@AFKssb">
-    <img src="yt.png" alt="" class="yt" ></th>
-    </a>
 
-<th>
-    <a href="https://www.instagram.com/afkssb/">
-    <img src="ig.png" alt="" class="ig"></th>
-    </a>
-
-<th>
-    <a href="https://discord.gg/CFrjbcht">
-    <img src="ds.png" alt="" class="ds"></th>
-    </a>
-
-<th>
-    <a href="https://x.com/Afkssb">
-    <img src="twt.png" alt="" class="twt"></th>
-    </a>
-
-</tr>
-
-</table>
-
-</footer>
+ <footer>
+        <h2>NUESTRAS REDES</h2>
+        <div class="redes">
+            <a href="https://www.youtube.com/@AFKssb">
+                <img src="Imagenes/yt.png" alt="YouTube" class="img-redes">
+            </a>
+            <a href="https://www.instagram.com/afkssb/">
+                <img src="Imagenes/ig.png" alt="Instagram" class="img-redes">
+            </a>
+            <a href="https://discord.gg/CFrjbcht">
+                <img src="Imagenes/ds.png" alt="Discord" class="img-redes">
+            </a>
+            <a href="https://x.com/Afkssb">
+                <img src="Imagenes/twt.png" alt="Twitter/X" class="img-redes">
+            </a>
+        </div>
+    </footer>
+    
 </body>
 </html>
