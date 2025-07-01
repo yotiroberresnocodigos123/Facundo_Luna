@@ -1,0 +1,29 @@
+//Variables
+@import "../base/variables";
+
+//Header para todas las páginas
+header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 10px 20px; 
+    background-color:$color-header;
+    color: $color-texto;
+    height: 80px;
+}
+.encabezado {
+  flex: 1;
+  text-align: center;
+  font-family: sans-serif;
+  text-decoration: $link-underline;
+  color: $color-texto;
+}
+.nav-left {
+  display: flex;
+  gap: 10px;
+}
+.title {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}

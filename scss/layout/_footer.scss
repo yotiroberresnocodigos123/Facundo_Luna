@@ -1,0 +1,12 @@
+@import "../base/variables";
+
+footer{
+    background-color:$color-header;
+    text-align: center ;
+    padding: 0;
+    margin: 0;
+     position: static;
+  bottom: 0;
+  width: 100%;
+    
+}

@@ -1,0 +1,28 @@
+/* Parte de la página del ranking */
+
+
+.ranking-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; 
+}
+
+.jugador {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px; 
+}
+
+.jugador img {
+    width: 100%; 
+    height: 100%;
+}
+
+.jugador p {
+    margin-top: 8px;
+    color: white; 
+    font-weight: bold;
+    text-align: center;
+}

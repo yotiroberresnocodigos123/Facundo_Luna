@@ -1,0 +1,20 @@
+//reset
+@import "base/reset";
+
+//Estilos generales
+@import "base/variables";
+
+//Layout para todas las páginas
+@import "layout/header";
+@import "layout/footer";
+@import "layout/grid";
+
+//Componentes
+@import "componentes/links";
+
+//Estilos específicos para cada página
+
+@import "paginas/index";
+@import "paginas/rank";
+@import "paginas/torneo";
+@import "paginas/about";
