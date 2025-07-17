@@ -3,12 +3,16 @@
 /*  Parte CSS del About Us*/
 
 .img-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    justify-items: center;
-    padding: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin: 40px 0;
 }
+
+.img-abus {
+  text-align: center;
+}
+
 
 .img-abus img {
     width: 200px;
@@ -17,9 +21,6 @@
     border-radius: 50%; 
 }
 
-.img-abus {
-    text-align: center;
-}
 
 .img-abus p {
     margin-top: 10px;

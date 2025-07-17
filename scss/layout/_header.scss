@@ -22,8 +22,10 @@ header {
   display: flex;
   gap: 10px;
 }
-.title {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-}
+  .title {
+    font-size: large;
+    text-align: right;
+    width: 100%;
+    margin-top: 10px;
+    padding-right: 10px;
+  }
